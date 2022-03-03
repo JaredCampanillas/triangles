@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangles - Area</title>
+    <!--Estilos-->
+    <link rel ="shortcut icon" href="./images/triangulo.png" type="image/x-icon">
+    <link rel= "stylesheet" href="./triangle.css">
+</head>
+<body>
+    <div id="container">
+    <h1>Programa que te dice el area de un triángulo</h1>
+
+    <form action="">
+        <label for="base">Base:</label>
+        <input type="number" id="base" placeholder=" en cm"> * <br><br>
+        <label for="altura">Altura:</label>
+        <input type="number" id="altura" placeholder=" en cm"> * <br><br>
+        
+    </form>
+    
+    <button onclick="triangulos()">Calcular</button>
+    <p id="solucion"></p>
+    <p id="error"></p>
+
+    <button type="button" onclick="prompter()">Te saludo?</button>
+    
+    </div>
+    <!--JS-->
+    <script src="./triangle.js"></script>
+</body>
+</html>
